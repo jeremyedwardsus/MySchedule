@@ -1,0 +1,26 @@
+body {
+  background-color: green;
+}
+table {
+  text-align: left;
+}
+td {
+  width: auto;
+}
+th {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+/*color palette adapted from:
+http://www.colourlovers.com/palette/53698/Its_a_Virtue*/
+tr.oddrow {
+  background-color: #EBE54D;
+}
+tr.evenrow {
+  background-color: #FF0051;
+  color: lightblue;
+}
+td:hover {
+  color: #E2DF9A;
+  background-color: #4B490B;
+}
